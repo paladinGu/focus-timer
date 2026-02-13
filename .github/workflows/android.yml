@@ -29,14 +29,17 @@ jobs:
         
     - name: Create Flutter project
       run: |
+        # 先删除现有文件
+        rm -rf lib android ios web windows macos linux android.dart
         # 创建新项目
-        flutter create --platforms android --org com.focustimer app .
+        flutter create --platforms android --org com.focustimer app
         
     - name: Copy source files
       run: |
         # 复制我们的代码到新项目
         cp -r lib/* app/lib/ 2>/dev/null || true
         cp pubspec.yaml app/
+        mkdir -p app/assets
         cp -r assets/* app/assets/ 2>/dev/null || true
         
     - name: Install dependencies
