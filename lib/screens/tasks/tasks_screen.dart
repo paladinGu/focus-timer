@@ -129,9 +129,9 @@ class _TasksScreenState extends State<TasksScreen> {
     }
 
     return SingleChildScrollView(
-      padding: const EdgeInsets 16),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
-.symmetric(horizontal:        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           if (pendingTasks.isNotEmpty) ...[
             const Text(
