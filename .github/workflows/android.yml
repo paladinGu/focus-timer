@@ -1,0 +1,62 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+        channel: 'stable'
+        
+    - name: Install dependencies
+      run: |
+        flutter pub get
+        
+    - name: Build APK (Debug)
+      run: |
+        flutter build apk --debug --split-per-abi
+      env:
+        FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
+        
+    - name: Upload Debug APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: focus-timer-debug.apk
+        path: build/app/outputs/flutter-apk/
+        retention-days: 7
+        
+    - name: Build APK (Release)
+      run: |
+        flutter build apk --release --split-per-abi
+      env:
+        FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
+        
+    - name: Upload Release APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: focus-timer-release.apk
+        path: build/app/outputs/flutter-apk/
+        retention-days: 30
+        
+    - name: List generated files
+      run: |
+        ls -la build/app/outputs/flutter-apk/
