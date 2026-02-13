@@ -27,12 +27,26 @@ jobs:
         flutter-version: '3.19.0'
         channel: 'stable'
         
+    - name: Create Flutter project
+      run: |
+        # 创建新项目
+        flutter create --platforms android --org com.focustimer app .
+        
+    - name: Copy source files
+      run: |
+        # 复制我们的代码到新项目
+        cp -r lib/* app/lib/ 2>/dev/null || true
+        cp pubspec.yaml app/
+        cp -r assets/* app/assets/ 2>/dev/null || true
+        
     - name: Install dependencies
       run: |
+        cd app
         flutter pub get
         
     - name: Build APK (Debug)
       run: |
+        cd app
         flutter build apk --debug --split-per-abi
       env:
         FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
@@ -41,11 +55,12 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: focus-timer-debug.apk
-        path: build/app/outputs/flutter-apk/
+        path: app/build/app/outputs/flutter-apk/
         retention-days: 7
         
     - name: Build APK (Release)
       run: |
+        cd app
         flutter build apk --release --split-per-abi
       env:
         FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
@@ -54,9 +69,9 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: focus-timer-release.apk
-        path: build/app/outputs/flutter-apk/
+        path: app/build/app/outputs/flutter-apk/
         retention-days: 30
         
     - name: List generated files
       run: |
-        ls -la build/app/outputs/flutter-apk/
+        ls -la app/build/app/outputs/flutter-apk/
