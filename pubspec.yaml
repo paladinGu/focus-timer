@@ -1,0 +1,59 @@
+name: focus_timer
+description: 专注时光 - 一个高效的番茄时钟应用
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状态管理
+  provider: ^6.0.5
+  riverpod: ^2.3.6
+
+  # 本地存储
+  shared_preferences: ^2.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # UI组件
+  google_fonts: ^5.1.0
+  flutter_local_notifications: ^15.1.0+1
+
+  # 广告
+  google_mobile_ads: ^3.0.0
+
+  # 分析
+  firebase_core: ^2.15.0
+  firebase_analytics: ^10.4.0
+
+  # 音效
+  audioplayers: ^5.0.0
+
+  # 工具
+  intl: ^0.18.1
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
