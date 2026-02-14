@@ -33,7 +33,14 @@ jobs:
         
     - name: Build Debug APK
       run: |
-        flutter build apk --debug --split-per-abi
+        echo "=== Flutter version ==="
+        flutter --version
+        echo "=== Project structure ==="
+        ls -la
+        echo "=== Check android folder ==="
+        ls -la android/ || echo "android folder missing"
+        echo "=== Running build ==="
+        flutter build apk --debug --split-per-abi || echo "BUILD FAILED"
         
     - name: Build Release APK
       run: |
