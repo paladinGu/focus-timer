@@ -31,32 +31,17 @@ jobs:
       run: |
         flutter pub get
         
-    - name: Build APK (Debug)
+    - name: Build Debug APK
       run: |
         flutter build apk --debug --split-per-abi
-      env:
-        FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
         
-    - name: Upload Debug APK
-      uses: actions/upload-artifact@v4
-      with:
-        name: focus-timer-debug.apk
-        path: build/app/outputs/flutter-apk/
-        retention-days: 7
-        
-    - name: Build APK (Release)
+    - name: Build Release APK
       run: |
         flutter build apk --release --split-per-abi
-      env:
-        FLUTTER_ROOT: ${{ runner.toolcache }}/flutter/*/flutter
         
-    - name: Upload Release APK
+    - name: Upload APKs
       uses: actions/upload-artifact@v4
       with:
-        name: focus-timer-release.apk
+        name: focus-timer-apks
         path: build/app/outputs/flutter-apk/
-        retention-days: 30
-        
-    - name: List generated files
-      run: |
-        ls -la build/app/outputs/flutter-apk/
+        retention-days: 7

@@ -47,13 +47,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets:
-    - assets/sounds/
-    - assets/images/
-
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf
-        - asset: assets/fonts/Poppins-Bold.ttf
-          weight: 700
+  # 暂时移除不存在的资源文件，等用户添加后再启用
+  # assets:
+  #   - assets/sounds/
+  #   - assets/images/
+  #
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
