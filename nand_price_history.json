@@ -1,0 +1,64 @@
+{
+  "records": [
+    {
+      "date": "2026-02-16",
+      "update_time": "2026-02-16 18:02",
+      "items": [
+        {
+          "name": "512Gb TLC",
+          "price": 20.0
+        },
+        {
+          "name": "256Gb TLC",
+          "price": 10.5
+        },
+        {
+          "name": "128Gb TLC",
+          "price": 7.5
+        },
+        {
+          "name": "64Gb MLC",
+          "price": 8.2
+        },
+        {
+          "name": "32Gb MLC",
+          "price": 6.25
+        },
+        {
+          "name": "SLC 2Gb",
+          "price": 2.5
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "update_time": "2026-02-16 14:02",
+      "items": [
+        {
+          "name": "512Gb TLC",
+          "price": 20.0
+        },
+        {
+          "name": "256Gb TLC",
+          "price": 10.5
+        },
+        {
+          "name": "128Gb TLC",
+          "price": 7.5
+        },
+        {
+          "name": "64Gb MLC",
+          "price": 8.2
+        },
+        {
+          "name": "32Gb MLC",
+          "price": 6.25
+        },
+        {
+          "name": "SLC 2Gb",
+          "price": 2.5
+        }
+      ]
+    }
+  ]
+}

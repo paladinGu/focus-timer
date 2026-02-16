@@ -1,0 +1,410 @@
+{
+  "records": [
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "\u82f1\u4f1f\u8fbe",
+          "country": "US",
+          "sector": "AI/GPU",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "603986.SZ",
+          "name": "\u5146\u6613\u521b\u65b0",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "\u4e2d\u82af\u56fd\u9645",
+          "country": "CN",
+          "sector": "\u6676\u5706\u4ee3\u5de5",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002049.SZ",
+          "name": "\u7d2b\u5149\u56fd\u5fae",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002371.SZ",
+          "name": "\u5317\u65b9\u534e\u521b",
+          "country": "CN",
+          "sector": "\u534a\u5bfc\u4f53\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "600745.SS",
+          "name": "\u95fb\u6cf0\u79d1\u6280",
+          "country": "CN",
+          "sector": "\u529f\u7387\u534a\u5bfc\u4f53",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "\u82f1\u4f1f\u8fbe",
+          "country": "US",
+          "sector": "AI/GPU",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "603986.SZ",
+          "name": "\u5146\u6613\u521b\u65b0",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "\u4e2d\u82af\u56fd\u9645",
+          "country": "CN",
+          "sector": "\u6676\u5706\u4ee3\u5de5",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002049.SZ",
+          "name": "\u7d2b\u5149\u56fd\u5fae",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002371.SZ",
+          "name": "\u5317\u65b9\u534e\u521b",
+          "country": "CN",
+          "sector": "\u534a\u5bfc\u4f53\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "600745.SS",
+          "name": "\u95fb\u6cf0\u79d1\u6280",
+          "country": "CN",
+          "sector": "\u529f\u7387\u534a\u5bfc\u4f53",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "\u82f1\u4f1f\u8fbe",
+          "country": "US",
+          "sector": "AI/GPU",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "603986.SZ",
+          "name": "\u5146\u6613\u521b\u65b0",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "\u4e2d\u82af\u56fd\u9645",
+          "country": "CN",
+          "sector": "\u6676\u5706\u4ee3\u5de5",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002049.SZ",
+          "name": "\u7d2b\u5149\u56fd\u5fae",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002371.SZ",
+          "name": "\u5317\u65b9\u534e\u521b",
+          "country": "CN",
+          "sector": "\u534a\u5bfc\u4f53\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "600745.SS",
+          "name": "\u95fb\u6cf0\u79d1\u6280",
+          "country": "CN",
+          "sector": "\u529f\u7387\u534a\u5bfc\u4f53",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "\u82f1\u4f1f\u8fbe",
+          "country": "US",
+          "sector": "AI/GPU",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "603986.SZ",
+          "name": "\u5146\u6613\u521b\u65b0",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "\u4e2d\u82af\u56fd\u9645",
+          "country": "CN",
+          "sector": "\u6676\u5706\u4ee3\u5de5",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002049.SZ",
+          "name": "\u7d2b\u5149\u56fd\u5fae",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002371.SZ",
+          "name": "\u5317\u65b9\u534e\u521b",
+          "country": "CN",
+          "sector": "\u534a\u5bfc\u4f53\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "600745.SS",
+          "name": "\u95fb\u6cf0\u79d1\u6280",
+          "country": "CN",
+          "sector": "\u529f\u7387\u534a\u5bfc\u4f53",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "country": "US",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "\u82f1\u4f1f\u8fbe",
+          "country": "US",
+          "sector": "AI/GPU",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "603986.SZ",
+          "name": "\u5146\u6613\u521b\u65b0",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "\u4e2d\u82af\u56fd\u9645",
+          "country": "CN",
+          "sector": "\u6676\u5706\u4ee3\u5de5",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002049.SZ",
+          "name": "\u7d2b\u5149\u56fd\u5fae",
+          "country": "CN",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "002371.SZ",
+          "name": "\u5317\u65b9\u534e\u521b",
+          "country": "CN",
+          "sector": "\u534a\u5bfc\u4f53\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "600745.SS",
+          "name": "\u95fb\u6cf0\u79d1\u6280",
+          "country": "CN",
+          "sector": "\u529f\u7387\u534a\u5bfc\u4f53",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "stocks": [
+        {
+          "ticker": "MU",
+          "name": "\u7f8e\u5149\u79d1\u6280",
+          "sector": "\u5b58\u50a8\u82af\u7247",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        },
+        {
+          "ticker": "WDC",
+          "name": "\u897f\u90e8\u6570\u636e",
+          "sector": "\u5b58\u50a8\u8bbe\u5907",
+          "price": null,
+          "change": null,
+          "note": "API\u53d7\u9650"
+        }
+      ]
+    }
+  ]
+}
